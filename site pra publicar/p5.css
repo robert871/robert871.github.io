@@ -1,0 +1,39 @@
+body{background-color: rgb(12, 192, 197);
+
+}
+section{
+    margin-top: 70px;
+    height: 500px;
+    width: 60%;
+    margin-top: 25px;
+    background-color: rgb(200,200,255);
+    text-align: center;
+    border-radius: 20%;
+    margin-left: 20%;
+    box-shadow: 10px 20px 25px black;
+}
+input{
+    
+    margin-top: 200px;
+    height: 30px;
+    width: 30px;
+    
+}
+div#ok{
+    margin-left: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+button{
+background-color:green;
+box-shadow: 2px 2px 2px;
+margin-bottom: 10px;
+margin-top: 10px;
+
+}
