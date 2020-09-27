@@ -4,14 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="p5.css">
+    
 </head>
+<style>
+  body{background-color: rgb(12, 192, 197);
+
+}
+section{
+    margin-top: 70px;
+    height: 500px;
+    width: 60%;
+    margin-top: 25px;
+    background-color: rgb(200,200,255);
+    text-align: center;
+    border-radius: 20%;
+    margin-left: 20%;
+    box-shadow: 10px 20px 25px black;
+}
+input{
+    
+    margin-top: 200px;
+    height: 30px;
+    width: 30px;
+    
+}
+div#ok{
+    margin-left: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+button{
+background-color:green;
+box-shadow: 2px 2px 2px;
+margin-bottom: 10px;
+margin-top: 10px;
+
+}
+
+</style>
 <body><h1>conversor de números binários</h1>
   <section> <div id="ok">     
- <strong>número binário </strong> <input  id="n15" type="number" value="0" min="0" max="1"><input  id="n14" type="number" value="0" min="0" max="1"><input  id="n13" type="number" value="0" min="0" max="1"><input  id="n12" type="number" value="0" max="1" min="0"><input  id="n1"type="number" value="0" max="1" min="0"><input  id="n2"type="number" value="0"  max="1" min="0"><input id="n3" type="number" value="0" max="1" min="0"><input  id="n4" type="number" value="0" max="1" min="0"><input id="n5" type="number" value="0" max="1" min="0"><input id="n6" type="number" value="0"  max="1" min="0"><input  id="n7" type="number" value="0" max="1" min="0"><input id="n8" type="number" value="0" max="1" min="0"><input id="n9" type="number"value="0"  max="1" min="0"><input  id="n10" type="number" value="0" max="1" min="0"><input id="n11" type="number" value="0" max="1" min="0"><br>
+ <strong>número binário: </strong> <input  id="n15" type="number" value="0" min="0" max="1"><input  id="n14" type="number" value="0" min="0" max="1"><input  id="n13" type="number" value="0" min="0" max="1"><input  id="n12" type="number" value="0" max="1" min="0"><input  id="n1"type="number" value="0" max="1" min="0"><input  id="n2"type="number" value="0"  max="1" min="0"><input id="n3" type="number" value="0" max="1" min="0"><input  id="n4" type="number" value="0" max="1" min="0"><input id="n5" type="number" value="0" max="1" min="0"><input id="n6" type="number" value="0"  max="1" min="0"><input  id="n7" type="number" value="0" max="1" min="0"><input id="n8" type="number" value="0" max="1" min="0"><input id="n9" type="number"value="0"  max="1" min="0"><input  id="n10" type="number" value="0" max="1" min="0"><input id="n11" type="number" value="0" max="1" min="0"><br>
 
 <button type="button" onclick="calcular()"> converter</button><br>
-<strong> número decimal: </strong><div id="div"></div>
+<strong> número decimal: </strong><div id="div"> 0 </div>
   </div>
   <div id="sd"></div>
 </section>
